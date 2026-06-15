@@ -1,7 +1,7 @@
  Landing Page HTML code.
 
 A modern and responsive landing page built using HTML and CSS.
-
+<link rel="stylesheet" href="style.css">
 ## Features
 - Responsive Design
 - Navigation Menu
