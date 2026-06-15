@@ -1,18 +1,48 @@
- Landing Page HTML code.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-A modern and responsive landing page built using HTML and CSS.
-<link rel="stylesheet" href="style.css">
-## Features
-- Responsive Design
-- Navigation Menu
-- Hero Section
-- Services Section
-- Testimonials
-- Contact Form
+<nav>
+    <h1>My Website</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
-## Technologies Used
-- HTML5
-- CSS3
+<section class="hero">
+    <h2>Welcome to My Landing Page</h2>
+    <p>Creating modern and responsive web designs.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
 
-## Author
-Shravya Pirangi
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <h3>Web Design</h3>
+        <p>Modern and attractive websites.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Development</h3>
+        <p>Fast and responsive web applications.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Support</h3>
+        <p>24/7 customer support services.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Landing Page Project</p>
+</footer>
+
+</body>
+</html>
